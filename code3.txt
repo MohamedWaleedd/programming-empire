@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>to do list</title>
+  <style>
+ *{
+  padding: 0;
+  margin: 0;
+}
+body {
+    color: #fff;
+    font-family: system-ui;
+}
+.list{
+  margin: auto;
+  width: 80%;
+}
+.head{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+input{
+  width: 100%;
+  height: 25px;
+  border: 1px black solid;
+  outline: none;
+  background: #f;
+  margin: 4px 0;
+  border-radius: 4px;
+  padding: 4px;
+  color: black;
+}
+input:focus{
+  background: lightgrey;
+  border: 1px white solid;
+}
+.button{
+  width: 100%;
+  height: 30px;
+  border: none;
+  color: white;
+  background: dodgerblue;
+  border-radius: 20px;
+  transition: 0.6s;
+}
+.button:hover{
+  background: blue;
+  letter-spacing: 1px;
+}
+button:hover{
+  background: limegreen;
+  letter-spacing: 1px;
+}
+table{
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  margin-left: 20px;
+}
+table tr{
+  text-transform: uppercase;
+}
+tr,td{
+  padding: 5px;
+}
+h6{
+  border-bottom: 1px solid black;
+}
+button{
+  border: none;
+  color: white;
+  background: red;
+  border-radius: 20px;
+  transition: 0.6s;
+  width: 80px;
+  height: 20px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="list">
+  <div class="head">
+    <h2 style="color: black;">TO-DO LIST</h2>
+  </div>
+  <div class="input">
+  <input type="text" id="title" placeholder="title">
+   <button id="submit" class="button">Create</button>
+   <br>
+   <br>
+   <br>
+   <h6></h6>
+  </div>
+  </div>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>TASK</th>
+      <th>DELETE</th>
+    </tr>
+    <tbody id="tbody">
+  
+    </tbody>
+  </table>
+  </div>
+  <script>
+    let title = document.getElementById("title");
+    let submit = document.getElementById("submit");
+    
+    let dataPro;
+    if (localStorage.product != null) {
+      dataPro = JSON.parse(localStorage.product)
+    } else {
+      dataPro = [];
+    }
+   submit.addEventListener("click", function(){
+  let titleValue = title.value;
+  
+  if(titleValue === ""){
+    alert("Please enter title");
+    return;
+  }
+
+  let id = dataPro.length;
+  dataPro.push({
+    id: id,
+    title: titleValue
+  });
+  
+  localStorage.product = JSON.stringify(dataPro);
+  displayData();
+  title.value = "";
+});
+
+function displayData(){
+  let tbody = document.getElementById("tbody");
+  tbody.innerHTML = "";
+
+  for(let i = 0; i < dataPro.length; i++){
+    let tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${dataPro[i].id}</td>
+      <td>${dataPro[i].title}</td>
+      <td><button onclick="deleteData(${dataPro[i].id})">Delete</button></td>
+    `;
+    tbody.appendChild(tr);
+  }
+}
+
+function deleteData(id){
+  let data = dataPro.filter(function(value){
+    return value.id != id;
+  });
+
+  dataPro = data;
+  localStorage.product = JSON.stringify(dataPro);
+  displayData();
+}
+
+displayData();
+</script>
+</body>
+</html>

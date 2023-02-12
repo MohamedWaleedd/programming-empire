@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PORTFOLIO</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: white;
+      background: #100016;
+    }
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-bottom: 1.1px white solid;
+      height: 50px;
+    }
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    a{
+      font-size: 22px;
+      font-weight: bold;
+      cursor: none;
+    }
+    span{
+      color: dodgerblue;
+    }
+    a:hover{
+      border-bottom: dodgerblue solid;
+    }
+    .home{
+      font-size: 50px;
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+    .img{
+      width: 700px;
+      margin-left: 250px;
+    }
+    h6{
+      border-bottom: 1.1px white solid;
+    }
+    h4{
+      font-size: 70px;
+      margin-left: 280px;
+      color: dodgerblue;
+    }
+    .imgs{
+      width: 10px;
+      margin-left: 200px;
+    }
+    .p1{
+      width: 500px;
+      border-radius: 40px;
+      transition: 0.7s ease;
+    }
+    .p2{
+      width: 500px;
+      border-radius: 40px;
+      height: 600px;
+    }
+    .p3{
+      width: 500px;
+      border-radius: 40px;
+      height: 600px;
+    }
+    table{
+      width: 800px;
+      height: 300px;
+      font-size: 40px;
+      margin-left: 80px;
+    }
+    .hh4{
+      font-size: 40px;
+     color: dodgerblue;
+    }
+    .c{
+      margin-left: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+   <h2>PORT<span>FOLIO</span></h2>
+    <a href="#home">Home</a>
+    <a href="#projects">projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Visit Us</a>
+      </header>
+      <section id="home">
+        <div class="home">
+          <h1>Hello I'm </h1>
+          <h1><span class="s">Name</span></h1>
+          <h1>Web Developer</h1>
+          <h5>I Develop And Design Websites   From 2022/2023.</h5>
+          <br>
+          <img src="portimg.svg" alt="photo" class="img">
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <br>
+      <section id="projects">
+        <h4>PROJECTS</h4>
+        <br>
+        <div class="imgs">
+        <img src="Screenshot_20230130-231131_Spck Editor.jpg" alt="project1" class="p1">
+        <br>
+        <br>
+        <img src="Screenshot_20230130-231139_Spck Editor.jpg" alt="project2" class="p2">
+        <br>
+        <br>
+        <img src="Screenshot_20230130-231149_Spck Editor.jpg" alt="project3" class="p3">
+        <br>
+        <br>
+        <img src="Screenshot_20230204-233317_Spck Editor.jpg" alt="p4" class="p3">
+        </div>
+      </section>
+       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <section id="skills">
+        <h4>SKILLS</h4>
+        <div class="skills">
+          <table border="10px white double">
+            <tr>
+              <td>Html</td>
+              <td>97%</td>
+            </tr>
+            <tr>
+              <td>Css</td>
+              <td>85%</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>75%</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <h6></h6>
+      <br>
+      <br>
+      <section id="contact">
+        <h4>VISIT US</h4>
+        <br>
+        <h2>PHONE NUMBER:</h2>
+        <br>
+        <h2></h2>
+        <br>
+        <h2>Facebook:</h2>
+        <br>
+        <img src="1024px-Facebook_Logo_(2019).png" alt="logo" width="70px">
+      </section>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <h2 class="c">copyright@Mohamed Waleed</h2>
+      <br>
+      <h6></h6>
+      <br>
+  <script src="main.js"></script>
+</body>
+</html>

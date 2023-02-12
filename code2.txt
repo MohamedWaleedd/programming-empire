@@ -1,0 +1,116 @@
+-<!DOCTYPE html>
+<html>
+   <head>
+       <title>MOHAMED</title>
+   </head>
+      <body>
+          <h1>MODO ACADMY</h1>
+              <ul>
+                <li class="li2"><a href="" class="a1">facebook</a></li>
+                   <li class="li3"><a href="" class="a2">sign in</a></li>  
+              </ul>
+           <br>   
+              <h2 class="ert">MODO ACADMY<BR><button>LOGIN</button></h2>  
+                <h2 align ="center"> lets learn !</h2>   
+                <br><br><br><Br><br><br><br><Br><br><br><br><Br><br> 
+                   <fieldset>
+                       <h2>front</h2>
+                       <BR>
+                        <UL>
+                           <ads>HTML</ads>
+                           <ads>CSS</ads>
+                           <ads>JAVASCRIPT</ads>
+                        </UL>       
+                           <ads>30$<ad>50$</ads>
+                      
+                   </fieldset>       
+                   <fieldset>
+                     <h2>c50</h2>
+                                  <BR>
+                                      <UL> 
+                                          <ads>introc50</ads>
+                                              <ads>normalc50</ads>
+                                                    <ads>masterc50</ads>
+                                                              </UL>  
+                                                              <ads>10$<ad>20$</ads>
+                                                            </fieldset> 
+                                                        <fieldset>
+                                                    <h2>c++</h2>
+                                                <BR>
+                                            <UL> 
+                        <ads>intro c++</ads>
+                <ads>normalc++</ads>
+                <ads>masterc++</ads>
+                                                        </UL>  
+                                                        <ads>13.99$<ad>19.43$</ads>
+                                                    </fieldset>
+
+                                        <br><br><br><Br><br><br><br><Br><br><br><br><Br><br>
+                                            <h1 align ="center">features</h1>
+                                           <br><br><Br>
+                                            <h2 align = "center" class="hjk">clean code</h2>
+                                            <fieldset class="iop">
+                                                <img src ="wd.png">      
+                                        </fieldset>  
+                                    </fieldset>
+
+                                       <br><br><Br>
+                                        <h2 align = "center">speed</h2>
+                                        <fieldset class="iop">
+                                            <img src ="speed.png" class="plm">      
+                                    </fieldset>    
+                                        </fieldset>
+
+                                        <br><br><Br>
+                                         <h2 align = "center">quality</h2>
+                                         <fieldset class="iop">
+                                             <img src ="it.png" class="nbn">      
+                                     </fieldset>  
+                                         <br><br><Br><br><br><br><Br><br><br><br><Br> 
+                                            <div>
+                                         <uL>
+             <li>developer</li>
+                <li><h1>mohamed abdou&copy; - front</h1></li>                                                  
+                                                            </uL>
+                                             <br><br><br><Br>                 
+
+                                                                    </div>
+ <style>
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+ *{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+h1{
+   font-family:'cairo';  
+   width:100%;
+}
+.ert{
+background-image:url(back.jpg);
+background-size:100% 100%;
+height:1000px;
+color: aliceblue;
+font-family:'cairo';
+background-attachment:fixed;
+text-align: center;
+padding-top:300PX;
+font-size:60PX;
+} 
+h2{
+  font-family:'cairo'; 
+   margin: auto;
+}
+ .li2{
+  display:inline;
+  margin-left:75%;
+ }
+ .li3{
+ display:inline;
+margin:100px;
+ }
+ .a1{font-family:"cairo";border-left:3px black solid;padding-left:5px;transition:padding-left 0.4s; text-decoration:none;color: black;}
+ .a1:hover{padding-left:10px;}
+ .a2{font-family:"cairo";border-left:3px black solid;padding-left:5px;transition:padding-left 0.4s; text-decoration:none;color: black;}
+ .a2:hover{padding-left:10px;}
+ fieldset{width:400PX;height: 530px; text-align: center;font-size:40PX;border-radius:40px;margin-left:100px;list-style-type:none;margin-top:100px;display: inline; box-shadow: #00000044 2px 2px 2px 2px; transition:transform

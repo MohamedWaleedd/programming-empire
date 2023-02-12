@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML, CSS, and JavaScript Quiz</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: 'cairo';
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+      .quiz-container {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .quiz-question {
+        margin-bottom: 20px;
+      }
+      .quiz-answer {
+        margin-bottom: 10px;
+        
+      }
+      .quiz-result {
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .button{
+        width: 400px;
+        height: 80px;
+        background: white;
+        border: 2px blueviolet solid;
+        border-radius: 30px;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      .button:hover{
+        background: blueviolet;
+        color: white;
+      }
+      h1{
+        font-size: 60px;
+        margin-left: 140px;
+        border-bottom: 10px black solid;
+        width: 170px;
+      }
+      header {
+        display: flex;
+        align-items center;
+        justify-content: space-around;
+        border-bottom: 1px black solid;
+        height: 50px;
+        margin-top: 10px;
+      }
+    a{
+      font-weight: bold;
+      margin-top: 5px;
+      font-family: sans-serif;
+    }
+    span{
+      background: blueviolet;
+      color: white;
+      font-family: sans-serif;
+    }
+    p{
+      font-size: 55px;
+ font-weight: 700;
+      border-bottom: 0px white solid;
+      width: 750px;
+    }
+    input[type="radio"] {
+      width: 50px;
+      height: 30px;
+    }
+    h6{
+      border-bottom: 2px black solid;
+    }
+    a:hover{
+      color: blueviolet;
+    }
+    h2{
+      font-family: sans-serif;
+    }
+    </style>
+  </head>
+  <body>
+      <header>
+    <h2><span>P</span>ROGRAMMING WORLD</h2>
+    <a href="home.html">Home</a>
+    <a href="programing-world.html">Course</a>
+    <a href="programing-world-Copy.html">Quiz</a>
+    <a href="Template.html">Template</a>
+  </header>
+  <hr>
+  <br>
+    
+    <div class="quiz-container">
+      <h1>Quiz</h1>
+      <br>
+      <form id="quiz-form">
+          <div class="quiz-answer">
+    <p>Which of the following properties is used to make the font italic?</p>
+    <input type="radio" name="question1" value="a">font-family<br>
+    <input type="radio" name="question1" value="b">font-style<br>
+    <input type="radio" name="question1" value="c">font-weight<br>
+    <br>
+    <br>
+    <br>
+    <h6></h6>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="quiz-question">
+     <p>The correct place in the HTML file to link to an external CSS file is the <.......> tag</p>
+          <div class="quiz-answer">
+            <input type="radio" name="question2" value="a">head<br>
+            <input type="radio" name="question2" value="b">body<br>
+            <input type="radio" name="question2" value="c">title<br>
+          </div>
+              <br>
+              <br>
+              <br>
+            <h6></h6>
+             <br>
+             <br>
+            <br>
+            <br>
+          <div class="questions-three">
+            <p>What is the last way to change the background color in css?</p>
+            <div class="quiz-answer">
+              <input type="radio" name="question3" value="a">bg-color<br>
+             <input type="radio" name="question3" value="b">color<br>
+             <input type="radio" name="question3" value="c">background<br>
+                 <br>
+                 <br>
+                 <br>
+                 <h6></h6>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+              <div class="question-four">
+        <p>Which of the following properties is used to change the font type?</p>
+         <div class="quiz-answer">
+                  <input type="radio" name="question4" value="a">font-size<br>
+                  <input type="radio" name="question4" value="b">font-family<br>
+                  <input type="radio" name="question4" value="c">font-weight
+                  <br>
+                 <br>
+                 <br>
+                 <h6></h6>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                  <div class="question five">
+      <p>Which of the following is used to change the font color?</p>
+      <div class="quiz-question">
+      <input type="radio" name="question5" value="a">background-color<br>
+       <input type="radio" name="question5" value="b">font-color<br>
+      <input type="radio" name="question5" value="c">color<br>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <br>
+      <br>
+       <p>Are width : 100 and width : 100% the same?</p>
+         <br>
+     <input type="radio" name="question6" value="a">yes<br>
+     <input type="radio" name="question6" value="b">no
+     <br>
+     <br>
+     <br>
+     <h6></h6>
+     <br>
+     <br>
+     <br>
+     <br>
+         <p>css used to</p>
+    <input type="radio" name="question7" value="a">Ai<br>
+     <input type="radio" name="question7" value="b">web development<br>
+      <input type="radio" name="question7" value="a">Android App
+      <br>
+      <br>
+      <br>
+<h6></h6>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>choose the correct code in css</p>
+      <input type="radio" name="question8" value="a">width: 100px;<br>
+      <input type="radio" name="question8" value="b">width="100px"<br>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <br>
+      <p>Witch of the following is incorrect in css?</p>
+      <input type="radio" name="question9" value="a">height: 20px;<br>
+      <input type="radio" name="question9" value="b">height = 20px<br>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <br>
+      <p>Witch of the following is correct in css?</p>
+      <input type="radio" name="question10" value="a">font-size: 20px;<br>
+      <input type="radio" name="question10" value="b">font size: 20px;<br>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h6></h6>
+      <br>
+      <br>
+      <br>
+      <br>
+      <input type="submit" value="Submit Quiz" class="button">
+      </form>
+      <div id="quiz-result" class="quiz-result"></div>
+    </div>
+    <script>
+      const quizForm = document.getElementById("quiz-form");
+      const quizResult = document.getElementById("quiz-result");
+
+      quizForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let score = 0;
+
+        if (quizForm.question1.value === "b") {
+          score++;
+        }
+        if (quizForm.question2.value === "a") {
+          score++;
+        }
+        if(quizForm.question3.value === "c") {
+          score++;
+        }
+        if(quizForm.question4.value === "b") {
+          score++;
+        }
+        if(quizForm.question5.value === "c") {
+          score++;
+        }
+        if(quizForm.question6.value === "b") {
+          score++;
+        }
+        if(quizForm.question7.value === "b") {
+          score++;
+        }
+        if (quizForm.question8.value === "a") {
+          score++;
+        }
+        if (quizForm.question9.value === "a") {
+          score++;
+        }
+        if(quizForm.question10.value === "a") {
+          score++;
+        }
+        quizResult.innerHTML = "Your score is: " + score + "/10";
+      });
+    </script>
+  </body>
+</html> 

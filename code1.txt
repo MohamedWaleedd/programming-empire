@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>LOGIN</title>
+   </head>
+     <body>
+        <h1>Mohamed Abdou</h1>
+      <br><br><br><Br><br><Br>
+       
+         <LOGIN>LOGIN</LOGIN>
+            <CENTER>
+              <fieldset>
+                 <br><br><br><Br>  
+               <label>NAME</label><input type="text" value="FOR EXIMPLE : JOHN">
+             <br><br>
+               <label>password</label><input type="password" value="123456789">
+             <br><br>
+               <label>email</label><input type="text" value="">
+              <br><Br><br><Br><br><Br><br><Br><br><Br><br><Br>
+              <a href="INDEX 1.html"><button>login</button></a>
+            </fieldset>
+            </CENTER>
+
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+LOGIN{
+     font-family:'cairo';
+     font-size:60px;
+     margin-left:45%;
+     text-decoration:underline;
+     }
+fieldset{
+         width:500PX;
+         height:500px;
+         border-radius:50px;
+         box-shadow:2px 5px 2px 5px rgba(14, 13, 13, 0.479);
+       }
+label{
+     font-family:'cairo';
+     font-weight: 700;
+     margin-right:30px;
+     }
+input{
+      border-radius:10px;
+      width:220px;
+      height: 30px;;
+     }    
+ body{
+      background-image:url(1.jpg);
+     }   
+ button{
+        background-color:green;
+        width:80px;
+        height:40px;
+        color: aliceblue;
+        box-shadow:1px 1px 1px 1px  rgba(0, 0, 0, 0.411);
+       border-radius:20px;
+       transition:background-color 1s;
+    }  
+ button:hover{
+              background-color:lightgreen;
+             }  
+ h1{
+    color: aliceblue;
+    background-color: black;
+    font-family:'cairo';
+    text-decoration:none;
+    transition:text-decoration 1s;
+  }   
+h1:hover{text-decoration:underline;}
+  *{
+ padding: 0%;
+ margin: 0%;
+ }   
+  
+</style> 
+   </body>
+</html
